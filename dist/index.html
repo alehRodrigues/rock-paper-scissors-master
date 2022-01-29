@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/dist/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+    <link rel="stylesheet" href="/dist/css/normalize.css" />
+    <link rel="stylesheet" href="/dist/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <div class="logo-img">
+            <img src="/dist//images/logo.svg" alt="Logo" />
+          </div>
+          <div class="score">
+            <p>Score</p>
+            <span>42</span>
+          </div>
+        </div>
+        <div class="player-info">
+          <label for="player-name">Your Name</label>
+          <input type="text" name="player-name" id="player-name" />
+        </div>
+        <div class="buttons">
+          <a class="game-button">Play against IA</a>
+          <a class="game-button">Play against Players</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="rules">
+          <a id="rules-button" class="rules-buttons"> RULES </a>
+          <a id="ranking-button" class="rules-buttons"> RANKING </a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https//:github.com/alehRodrigues">Alexandre Rodrigues</a>.
+      </div>
+    </footer>
+  </body>
+  <div class="modal modal-rules">
+    <h3>RULES</h3>
+    <img src="/dist/images/image-rules.svg" alt="rules diagram">
+    <img src="/dist/images/icon-close.svg" alt="close button">
+  </div>
+</html>
